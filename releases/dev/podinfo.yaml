@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: softbanx/podinfo:dev-hdtwcel9
+    image: natecr.azurecr.io/podinfo:dev-d9tw6msk
     replicaCount: 1
     hpa:
       enabled: false
